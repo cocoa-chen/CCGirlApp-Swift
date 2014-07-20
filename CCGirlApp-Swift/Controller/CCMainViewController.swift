@@ -23,7 +23,7 @@ class CCMainViewController: UIViewController,UITableViewDelegate , UITableViewDa
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.title = "Girl"
+        self.title = "美女"
         self.automaticallyAdjustsScrollViewInsets = false
         
         setupTableView()
