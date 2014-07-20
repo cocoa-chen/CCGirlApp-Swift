@@ -7,4 +7,4 @@ CCGirlApp-Swift
 ======================
 
 ![](https://github.com/cocoa-chen/CCGirlApp-Swift/raw/master/CCGirlApp-Swift/screenshoot.png)
-![](https://raw.githubusercontent.com/cocoa-chen/CCGirlApp-Swift/master/CCGirlApp-Swift/screenshoot/01.png)
+![](https://raw.githubusercontent.com/cocoa-chen/CCGirlApp-Swift/master/CCGirlApp-Swift/CCGirlApp-Swift/screenshoot.png)
