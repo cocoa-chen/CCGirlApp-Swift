@@ -6,5 +6,4 @@ CCGirlApp-Swift
 效果如下
 ======================
 
-![](https://github.com/cocoa-chen/CCGirlApp-Swift/raw/master/CCGirlApp-Swift/screenshoot.png)
 ![](https://raw.githubusercontent.com/cocoa-chen/CCGirlApp-Swift/master/CCGirlApp-Swift/CCGirlApp-Swift/screenshoot.png)
