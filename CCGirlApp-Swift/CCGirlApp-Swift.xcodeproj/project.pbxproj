@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69048E86197BC9A80026E5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048E85197BC9A80026E5D1 /* AppDelegate.swift */; };
+		69048E88197BC9A80026E5D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69048E87197BC9A80026E5D1 /* Images.xcassets */; };
+		69048E94197BC9A80026E5D1 /* CCGirlApp_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048E93197BC9A80026E5D1 /* CCGirlApp_SwiftTests.swift */; };
+		69048EA8197BC9DB0026E5D1 /* CCMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048E9E197BC9DB0026E5D1 /* CCMainViewController.swift */; };
+		69048EA9197BC9DB0026E5D1 /* CCGirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048EA0197BC9DB0026E5D1 /* CCGirl.swift */; };
+		69048EAA197BC9DB0026E5D1 /* CCHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048EA2197BC9DB0026E5D1 /* CCHttpRequest.swift */; };
+		69048EAB197BC9DB0026E5D1 /* FileManagerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048EA3197BC9DB0026E5D1 /* FileManagerUtil.swift */; };
+		69048EAC197BC9DB0026E5D1 /* UIImageView+WebCacheExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048EA4197BC9DB0026E5D1 /* UIImageView+WebCacheExt.swift */; };
+		69048EAD197BC9DB0026E5D1 /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048EA5197BC9DB0026E5D1 /* UILabelExt.swift */; };
+		69048EAE197BC9DB0026E5D1 /* CCGirlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048EA7197BC9DB0026E5D1 /* CCGirlCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69048E8E197BC9A80026E5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69048E78197BC9A80026E5D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69048E7F197BC9A80026E5D1;
+			remoteInfo = "CCGirlApp-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69048E80197BC9A80026E5D1 /* CCGirlApp-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCGirlApp-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69048E84197BC9A80026E5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69048E85197BC9A80026E5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69048E87197BC9A80026E5D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69048E8D197BC9A80026E5D1 /* CCGirlApp-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCGirlApp-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69048E92197BC9A80026E5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69048E93197BC9A80026E5D1 /* CCGirlApp_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCGirlApp_SwiftTests.swift; sourceTree = "<group>"; };
+		69048E9E197BC9DB0026E5D1 /* CCMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCMainViewController.swift; sourceTree = "<group>"; };
+		69048EA0197BC9DB0026E5D1 /* CCGirl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGirl.swift; sourceTree = "<group>"; };
+		69048EA2197BC9DB0026E5D1 /* CCHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCHttpRequest.swift; sourceTree = "<group>"; };
+		69048EA3197BC9DB0026E5D1 /* FileManagerUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerUtil.swift; sourceTree = "<group>"; };
+		69048EA4197BC9DB0026E5D1 /* UIImageView+WebCacheExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebCacheExt.swift"; sourceTree = "<group>"; };
+		69048EA5197BC9DB0026E5D1 /* UILabelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = "<group>"; };
+		69048EA7197BC9DB0026E5D1 /* CCGirlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCGirlCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69048E7D197BC9A80026E5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69048E8A197BC9A80026E5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69048E77197BC9A80026E5D1 = {
+			isa = PBXGroup;
+			children = (
+				69048E9D197BC9DB0026E5D1 /* Controller */,
+				69048E9F197BC9DB0026E5D1 /* Model */,
+				69048EA1197BC9DB0026E5D1 /* Utils */,
+				69048EA6197BC9DB0026E5D1 /* View */,
+				69048E82197BC9A80026E5D1 /* CCGirlApp-Swift */,
+				69048E90197BC9A80026E5D1 /* CCGirlApp-SwiftTests */,
+				69048E81197BC9A80026E5D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69048E81197BC9A80026E5D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69048E80197BC9A80026E5D1 /* CCGirlApp-Swift.app */,
+				69048E8D197BC9A80026E5D1 /* CCGirlApp-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69048E82197BC9A80026E5D1 /* CCGirlApp-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				69048E85197BC9A80026E5D1 /* AppDelegate.swift */,
+				69048E87197BC9A80026E5D1 /* Images.xcassets */,
+				69048E83197BC9A80026E5D1 /* Supporting Files */,
+			);
+			path = "CCGirlApp-Swift";
+			sourceTree = "<group>";
+		};
+		69048E83197BC9A80026E5D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69048E84197BC9A80026E5D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69048E90197BC9A80026E5D1 /* CCGirlApp-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				69048E93197BC9A80026E5D1 /* CCGirlApp_SwiftTests.swift */,
+				69048E91197BC9A80026E5D1 /* Supporting Files */,
+			);
+			path = "CCGirlApp-SwiftTests";
+			sourceTree = "<group>";
+		};
+		69048E91197BC9A80026E5D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69048E92197BC9A80026E5D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69048E9D197BC9DB0026E5D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				69048E9E197BC9DB0026E5D1 /* CCMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		69048E9F197BC9DB0026E5D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69048EA0197BC9DB0026E5D1 /* CCGirl.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69048EA1197BC9DB0026E5D1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				69048EA2197BC9DB0026E5D1 /* CCHttpRequest.swift */,
+				69048EA3197BC9DB0026E5D1 /* FileManagerUtil.swift */,
+				69048EA4197BC9DB0026E5D1 /* UIImageView+WebCacheExt.swift */,
+				69048EA5197BC9DB0026E5D1 /* UILabelExt.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		69048EA6197BC9DB0026E5D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69048EA7197BC9DB0026E5D1 /* CCGirlCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69048E7F197BC9A80026E5D1 /* CCGirlApp-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69048E97197BC9A80026E5D1 /* Build configuration list for PBXNativeTarget "CCGirlApp-Swift" */;
+			buildPhases = (
+				69048E7C197BC9A80026E5D1 /* Sources */,
+				69048E7D197BC9A80026E5D1 /* Frameworks */,
+				69048E7E197BC9A80026E5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCGirlApp-Swift";
+			productName = "CCGirlApp-Swift";
+			productReference = 69048E80197BC9A80026E5D1 /* CCGirlApp-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69048E8C197BC9A80026E5D1 /* CCGirlApp-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69048E9A197BC9A80026E5D1 /* Build configuration list for PBXNativeTarget "CCGirlApp-SwiftTests" */;
+			buildPhases = (
+				69048E89197BC9A80026E5D1 /* Sources */,
+				69048E8A197BC9A80026E5D1 /* Frameworks */,
+				69048E8B197BC9A80026E5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69048E8F197BC9A80026E5D1 /* PBXTargetDependency */,
+			);
+			name = "CCGirlApp-SwiftTests";
+			productName = "CCGirlApp-SwiftTests";
+			productReference = 69048E8D197BC9A80026E5D1 /* CCGirlApp-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69048E78197BC9A80026E5D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "陈爱彬";
+				TargetAttributes = {
+					69048E7F197BC9A80026E5D1 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					69048E8C197BC9A80026E5D1 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 69048E7F197BC9A80026E5D1;
+					};
+				};
+			};
+			buildConfigurationList = 69048E7B197BC9A80026E5D1 /* Build configuration list for PBXProject "CCGirlApp-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69048E77197BC9A80026E5D1;
+			productRefGroup = 69048E81197BC9A80026E5D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69048E7F197BC9A80026E5D1 /* CCGirlApp-Swift */,
+				69048E8C197BC9A80026E5D1 /* CCGirlApp-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69048E7E197BC9A80026E5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69048E88197BC9A80026E5D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69048E8B197BC9A80026E5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69048E7C197BC9A80026E5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69048E86197BC9A80026E5D1 /* AppDelegate.swift in Sources */,
+				69048EAA197BC9DB0026E5D1 /* CCHttpRequest.swift in Sources */,
+				69048EAB197BC9DB0026E5D1 /* FileManagerUtil.swift in Sources */,
+				69048EA9197BC9DB0026E5D1 /* CCGirl.swift in Sources */,
+				69048EAD197BC9DB0026E5D1 /* UILabelExt.swift in Sources */,
+				69048EAC197BC9DB0026E5D1 /* UIImageView+WebCacheExt.swift in Sources */,
+				69048EA8197BC9DB0026E5D1 /* CCMainViewController.swift in Sources */,
+				69048EAE197BC9DB0026E5D1 /* CCGirlCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69048E89197BC9A80026E5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69048E94197BC9A80026E5D1 /* CCGirlApp_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69048E8F197BC9A80026E5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69048E7F197BC9A80026E5D1 /* CCGirlApp-Swift */;
+			targetProxy = 69048E8E197BC9A80026E5D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69048E95197BC9A80026E5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69048E96197BC9A80026E5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69048E98197BC9A80026E5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "CCGirlApp-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69048E99197BC9A80026E5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "CCGirlApp-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69048E9B197BC9A80026E5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CCGirlApp-Swift.app/CCGirlApp-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CCGirlApp-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		69048E9C197BC9A80026E5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CCGirlApp-Swift.app/CCGirlApp-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CCGirlApp-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69048E7B197BC9A80026E5D1 /* Build configuration list for PBXProject "CCGirlApp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69048E95197BC9A80026E5D1 /* Debug */,
+				69048E96197BC9A80026E5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69048E97197BC9A80026E5D1 /* Build configuration list for PBXNativeTarget "CCGirlApp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69048E98197BC9A80026E5D1 /* Debug */,
+				69048E99197BC9A80026E5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69048E9A197BC9A80026E5D1 /* Build configuration list for PBXNativeTarget "CCGirlApp-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69048E9B197BC9A80026E5D1 /* Debug */,
+				69048E9C197BC9A80026E5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69048E78197BC9A80026E5D1 /* Project object */;
+}
